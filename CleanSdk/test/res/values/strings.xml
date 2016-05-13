@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+		xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">CleanSDK</string>
+    <string name="cache_scan">扫描缓存文件</string>
+    <string name="package_scan">扫描安装包</string>
+    <string name="residual_scan">扫描卸载残留</string>
+    <string name="similiar_picture_scan">扫描相似图片</string>
+    <string name="blur_picture_scan">扫描模糊图片</string>
+    <string name="scan_cancel">取消扫描</string>
+    <string name="scanning_for_package">正在扫描：</string>
+    <string name="scan_done_info">本次共扫描 <xliff:g id="TOTAL_NUM">%d</xliff:g>个APP, 共耗时<xliff:g id="TOTAL_NUM">%d</xliff:g>ms, 其中包含垃圾文件的APP有<xliff:g id="AVAILABLE_NUM">%d</xliff:g>个, 垃圾文件路径<xliff:g id="AVAILABLE_PAYHS">%d</xliff:g>条</string>
+    <string name="tip_has_database_info">数据库中共<xliff:g id="TOTAL_PATH">%d</xliff:g>条路径，应用未生成对应路径下的垃圾数据</string>
+    <string name="tip_has_no_database_info">数据库没有该应用信息</string>
+    <string name="tip_path_details">数据库中共<xliff:g id="TOTAL_PATH">%d</xliff:g>条路径，本次扫描到有效路径<xliff:g id="VALID_PATH">%d</xliff:g>条，真实路径<xliff:g id="REALITY_PATH">%d</xliff:g>条</string>
+    <string name="total_size">"TotalSize : "</string>
+    <string name="total_apk_num">共扫描到<xliff:g id="APK_NUM">%d</xliff:g>个安装包, <xliff:g id="INSTALLED_NUM">%d</xliff:g>个已安装, <xliff:g id="BROKEN_NUM">%d</xliff:g>个已损坏</string>
+    <string name="no_apk">没有扫描到安装包</string>
+    <string name="is_installed">已安装</string>
+    <string name="not_installed">未安装</string>
+    <string name="is_broken">已损坏</string>
+    <string name="not_broken">未损坏</string>
+    <string name="blur_analyzing">正在分析模糊图片...</string>
+    <string name="similiar_analyzing">正在分析相似图片...</string>
+    <string name="no_blur_picture">未能扫描到模糊图片</string>
+    <string name="no_similiar_picture">未能扫描到相似图片</string>
+    <string name="total_blur_picture_num">共扫描到<xliff:g id="BLUR_NUM">%d</xliff:g>张模糊图片</string>
+    <string name="total_similiar_catgory_num">共扫描到<xliff:g id="SIMILIAR_CATGORY">%d</xliff:g>组相似图片</string>
+    <string name="total_similiar_picture_num">共<xliff:g id="SIMILIAR_PIC">%d</xliff:g>张</string>
+    <string name="picture_scan">照片清理</string>
+    <string name="similiar_pictures">相似照片</string>
+    <string name="blur_pictures">模糊照片</string>
+    <string name="compress_pictures">照片压缩</string>
+    <string name="no_picture">相册没有照片</string>
+    <string name="detecting">"正在分析:"</string>
+    <string name="similiar_groups"><xliff:g id="GROUPS">%d</xliff:g>组</string>
+    <string name="saving_space">"节省空间"</string>
+</resources>

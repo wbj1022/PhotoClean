@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="loader_default_drawable">#E3E4E8</drawable>
+    <drawable name="empty_drawable">#00000000</drawable>
+	<drawable name="color_normal">#f4f4f4</drawable>
+	<drawable name="color_pressed">#e0e0e0</drawable>
+	<drawable name="color_clean_button_nomal">#009933</drawable>
+	<drawable name="color_clean_button_pressed">#006633</drawable>
+</resources>

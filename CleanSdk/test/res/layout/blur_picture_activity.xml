@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3" >
+
+    <Button
+        android:id="@+id/clean_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/clean_button"
+        android:text="@string/saving_space"
+        android:textColor="#ffffff" />
+
+    <GridView
+        android:id="@+id/blur_picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/clean_button"
+        android:cacheColorHint="#00000000"
+        android:columnWidth="120dip"
+        android:listSelector="@null"
+        android:numColumns="4"
+        android:stretchMode="columnWidth" />
+
+</RelativeLayout>
