@@ -71,6 +71,7 @@ public class PhotoCleanActivity extends Activity {
 		
 		similiarSize = (TextView) findViewById(R.id.similiar_size);
 		similiarPictureView = (RelativeLayout) findViewById(R.id.similiar_pictures);
+		similiarPictureView.setEnabled(false);
 		similiarPictureView.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -129,10 +130,13 @@ public class PhotoCleanActivity extends Activity {
 				progressView.setVisibility(View.GONE);
 				String blurSizeStr = (String) msg.obj;
 				blurSize.setText(blurSizeStr);
+				break;
 			case MSG_SIMILIAR_GROUPS:
 				progressView.setVisibility(View.GONE);
 				int similiarGroups = msg.arg1;
 				similiarSize.setText(getString(R.string.similiar_groups, similiarGroups));
+				similiarPictureView.setEnabled(true);
+				break;
 			default:
 				super.handleMessage(msg);
 			}
