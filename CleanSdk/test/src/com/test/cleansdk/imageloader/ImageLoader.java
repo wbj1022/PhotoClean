@@ -1,8 +1,5 @@
 package com.test.cleansdk.imageloader;
 
-import com.test.cleansdk.imageloader.BitmapLoaderTask.AsyncDrawable;
-import com.test.cleansdk.model.BitmapLruCache;
-
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;

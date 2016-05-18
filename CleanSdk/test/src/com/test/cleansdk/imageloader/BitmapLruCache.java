@@ -1,4 +1,4 @@
-package com.test.cleansdk.model;
+package com.test.cleansdk.imageloader;
 
 import android.graphics.Bitmap;
 import android.util.Log;
