@@ -1,5 +1,9 @@
 package com.test.cleansdk;
 
+import com.test.cleansdk.model.PhotoModel;
+import com.test.cleansdk.utils.FileUtil;
+import com.test.cleansdk.utils.ImageUtil;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

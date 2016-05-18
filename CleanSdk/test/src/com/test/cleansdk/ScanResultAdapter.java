@@ -1,6 +1,9 @@
 package com.test.cleansdk;
 
 import java.util.ArrayList;
+
+import com.test.cleansdk.model.ScanResultModel;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -3,6 +3,10 @@ package com.test.cleansdk;
 import java.io.File;
 import java.util.List;
 
+import com.test.cleansdk.imageloader.ImageLoader;
+import com.test.cleansdk.model.PhotoModel;
+import com.test.cleansdk.utils.ImageUtil;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;

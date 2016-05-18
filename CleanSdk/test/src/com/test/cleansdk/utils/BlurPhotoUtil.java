@@ -1,4 +1,6 @@
-package com.test.cleansdk;
+package com.test.cleansdk.utils;
+
+import com.test.cleansdk.model.PhotoModel;
 
 import android.graphics.Bitmap;
 

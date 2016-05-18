@@ -2,6 +2,8 @@ package com.test.cleansdk;
 
 import java.util.List;
 
+import com.test.cleansdk.model.PhotoModel;
+
 public interface PhotoMangerInterface {
 	void refreshDB();
 

@@ -1,4 +1,4 @@
-package com.test.cleansdk;
+package com.test.cleansdk.utils;
 
 import java.io.File;
 import java.io.FileOutputStream;

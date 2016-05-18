@@ -1,8 +1,10 @@
-package com.test.cleansdk;
+package com.test.cleansdk.utils;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.test.cleansdk.model.PhotoModel;
 
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;

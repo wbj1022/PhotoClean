@@ -1,6 +1,8 @@
-package com.test.cleansdk;
+package com.test.cleansdk.imageloader;
 
 import java.lang.ref.WeakReference;
+
+import com.test.cleansdk.model.BitmapLruCache;
 
 import android.content.ContentResolver;
 import android.content.Context;

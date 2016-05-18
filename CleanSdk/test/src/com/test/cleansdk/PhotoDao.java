@@ -1,5 +1,7 @@
 package com.test.cleansdk;
 
+import com.test.cleansdk.model.PhotoModel;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

@@ -2,6 +2,8 @@ package com.test.cleansdk;
 
 import java.util.ArrayList;
 
+import com.test.cleansdk.model.ApkItemModel;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.Log;

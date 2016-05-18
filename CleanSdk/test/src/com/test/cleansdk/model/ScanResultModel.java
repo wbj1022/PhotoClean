@@ -1,4 +1,4 @@
-package com.test.cleansdk;
+package com.test.cleansdk.model;
 
 public class ScanResultModel {
     public String packageName;

@@ -34,6 +34,9 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
+import com.test.cleansdk.model.ApkItemModel;
+import com.test.cleansdk.model.ScanResultModel;
+import com.test.cleansdk.utils.FileUtil;
 import com.vivo.secureplus.ManagerCreatorF;
 import com.vivo.secureplus.phoneclean.CleanDataOp;
 import com.vivo.secureplus.phoneclean.PhoneCleanManager;
